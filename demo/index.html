@@ -1,0 +1,71 @@
+<html>
+<head>
+    <title>x-tag-form demo</title>
+</head>
+<body>
+
+<script type="text/javascript" src="components.js"></script>
+<script type="text/javascript" src="../src/form.js"></script>
+
+<form is="x-form">
+    <div>
+        <label>
+            Text:
+            <input type="text" name="text" required>
+        </label>
+    </div>
+
+    <div>
+        <label>
+            Email:
+            <input type="email" name="email" required>
+        </label>
+    </div>
+
+    <div>
+        <input type="button" name="button" value="button">
+    </div>
+
+    <fieldset>
+        <legend>Radio Buttons</legend>
+
+        <label>
+            <input type="radio" name="radio" value="small">
+            Small
+        </label>
+
+        <label>
+            <input type="radio" name="radio" value="medium">
+            Medium
+        </label>
+
+        <label>
+            <input type="radio" name="radio" value="large">
+            Large
+        </label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Checkboxes</legend>
+
+        <label>
+            <input type="checkbox" name="checkbox" value="apple">
+            Apple
+        </label>
+
+        <label>
+            <input type="checkbox" name="checkbox" value="banana">
+            Banana
+        </label>
+
+        <label>
+            <input type="checkbox" name="checkbox"  value="coconut">
+            Coconut
+        </label>
+    </fieldset>
+
+    <input type="submit">
+</form>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+    "browser": true,
+    "curly": true,
+    "eqeqeq": true,
+    "freeze": true,
+    "indent": 4,
+    "latedef": true,
+    "newcap": true,
+    "predef": [
+        "xtag"
+    ],
+    "quotmark": true,
+    "strict": true,
+    "undef": true,
+    "unused": true
+}
