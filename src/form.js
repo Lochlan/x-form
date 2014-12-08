@@ -34,7 +34,7 @@
             getData: function () {
                 var data = {};
 
-                xtag.query(this, 'input[name]').forEach(function (input) {
+                xtag.query(this, '[name]').forEach(function (input) {
                     var inputData;
 
                     if (input.hasAttribute('disabled')) {
