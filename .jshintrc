@@ -1,4 +1,5 @@
 {
+    "-W086": true, // undocumented option allows case switching fall through, see https://github.com/jshint/jshint/issues/18#issuecomment-40304008
     "browser": true,
     "curly": true,
     "eqeqeq": true,
