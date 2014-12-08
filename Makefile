@@ -2,7 +2,10 @@ all: lint build
 
 build: demo/components.js
 
-lint:
+clean:
+	rm -rfv node_modules bower_components demo/components.js
+
+lint: node_modules
 	./node_modules/.bin/jshint src
 
 # file rules
