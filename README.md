@@ -33,7 +33,7 @@ Adds the `disabled` attribute to `<input type="submit">`.
 
 ## enableSubmitButton()
 
-Removes the `disabled` attribute to `<input type="submit">`.
+Removes the `disabled` attribute from `<input type="submit">`.
 
 ## getData()
 
