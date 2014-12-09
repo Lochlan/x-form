@@ -42,17 +42,18 @@
                     }
 
                     switch (input.type) {
-                        case 'email':
-                        case 'text':
-                        default:
-                            inputData = input.value;
+                        case 'button':
                             break;
                         case 'checkbox':
                         case 'radio':
                             if (input.checked) {
                                 inputData = input.value;
                             }
-                        case 'button':
+                            break;
+                        case 'email':
+                        case 'text':
+                        default:
+                            inputData = input.value;
                     }
 
                     if (typeof inputData !== 'undefined') {
