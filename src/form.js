@@ -60,9 +60,9 @@
                             if (!data[input.name].push) {
                                 data[input.name] = [data[input.name]];
                             }
-                            data[input.name].push(input.value || '');
+                            data[input.name].push(input.value);
                         } else {
-                            data[input.name] = input.value || '';
+                            data[input.name] = input.value;
                         }
                     }
                 });
